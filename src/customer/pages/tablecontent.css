@@ -1,0 +1,164 @@
+
+  .container{
+    width: 1250px ;
+    height: 30em;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+}
+ 
+  body {
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .content-header {
+    text-align: left;
+    padding: 20px 0;
+  }
+  
+
+  
+.add-button{
+  padding-top: 10px;
+    padding-left: 70em;
+    
+  }
+
+.button{
+background: linear-gradient(90deg, #0E94FB 0%, #0B6FBC 100%);
+border: none;
+height: 40px;
+border-radius: 20px;
+color: white;
+width: 80px;
+cursor: pointer;
+}
+
+.main-search{
+  display: flex;
+  height: 60px;
+  border-radius: 20px;
+  box-shadow: 10px 5px 15px 6px #e4e4e4;
+
+
+}
+
+  .search-bar {
+    border-radius: 20px;
+    margin: 9.5px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 300px;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-left: 0;
+    background-color: #457b9d;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .stats {
+    display: flex;
+    gap: 25px;
+    padding-left: 12em;
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 400;
+
+  }
+  
+  .stat {
+    padding: 10px;
+    text-align: center;
+    display: contents;
+
+  }
+  
+  .stat.active {
+    color: #00DE05;
+  }
+  
+.stat.inactive{
+  color: #dc3545;
+}
+
+.number-color{
+  color: #000000;
+}
+  
+  .user-table {
+    margin-top: 20px;
+  }
+  
+  .user-table .add-user {
+    padding: 10px 20px;
+    background-color: #457b9d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .user-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th,
+  .user-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .user-table th {
+    background-color: #f1f3f5;
+  }
+  
+  .user-table td a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .user-table td a:hover {
+    text-decoration: underline;
+  }
+  
+  .user-table .status {
+    font-weight: bold;
+  }
+  
+  .user-table .status.active {
+    color: #28a745;
+  }
+  
+  .user-table .status.inactive {
+    color: #dc3545;
+  }
+  
+  .user-table .actions {
+    gap: 10px;
+  }
+  
+  .user-table .actions a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  

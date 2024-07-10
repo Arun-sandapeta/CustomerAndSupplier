@@ -1,0 +1,41 @@
+.navigation{
+    margin-top: 40px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.navigationButtons{
+    display: flex;
+    height: 34px;
+    
+    align-items: center;
+    margin-right: 45px;
+}
+.navigation input{
+    width: 290px;
+    flex: 1;
+    padding: 12px;
+    margin-left: 30px;
+    
+    border: 1px solid #CDCCCC;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.navigation button{
+    height: 34px;
+    border: 1px;
+    color: black;
+    background-color: #fff;
+    border: 1px solid #C2D0E1;
+    border-collapse: collapse;
+    /* border-right: none; */
+}
+.navigation button :first-child{
+    border-top-left-radius: 10px ;
+    
+}
+.navigation button :last-child{
+    border-right:  1px solid #C2D0E1;;
+}
